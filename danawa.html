@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>다나와 여행</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="tour.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1><img src="https://tripbox.cache-front.iwinv.net/orgin/6334/Website/%EC%A0%9C%EB%AA%A9%20%EC%B6%94%EA%B0%80%20-%202023-10-20T123021.154.png" alt="danawa 여행"></h1>
+            <nav class="header-nav">
+                <a href="/package">패키지</a>
+                <a href="/tour">투어</a>
+                <a href="/flight">항공</a>
+                <a href="/hotel">호텔</a>
+                <a href="/local">지방출발</a>
+                <a href="/special">기획전</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="background-container">
+            <div class="main-container-box">
+                <div class="main-div"></div>
+                <div class="main-container">
+                    <h1>전세계 할인특가</h1>
+                    <h1>모음.zip</h1>
+                    <p>#가격 고민 끝 #가격 비교 끝 #선착순 할인특가</p>
+                    <button class="main-button">바로가기</button>
+                </div>
+                <div class="main-div"></div>
+            </div>
+            <section class="search-section">
+                <form class="search-form">
+                    <div class="search-item action="/search" method="GET"">
+                        <label for="arrival">도착도시</label>
+                        <select id="arrival" name="arrival">
+                            <option value="">선택하세요</option>
+                            <option value="tokyo">도쿄</option>
+                            <option value="osaka">오사카</option>
+                            <option value="bangkok">방콕</option>
+                            <option value="paris">파리</option>
+                        </select>
+                    </div>
+                    <div class="search-item">
+                        <div class="search-item">
+                            <label for="start-date">출발일</label>
+                            <input type="date" id="start-date" name="start-date" required>
+                        </div>
+                        <div class="search-item">
+                            <label for="end-date">도착일</label>
+                            <input type="date" id="end-date" name="end-date" required>
+                        </div>
+                    </div>
+                    <div class="search-item">
+                        <label for="passengers">인원 및 좌석</label>
+                        <select id="passengers" name="passengers">
+                            <option value="">선택하세요</option>
+                            <option value="1">성인 1명</option>
+                            <option value="2">성인 2명</option>
+                            <option value="3">성인 3명</option>
+                            <option value="4">성인 4명</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="search-button">검색</button>
+                </form>
+            </section>
+        </div>
+        <section class="theme-section">
+        <h2>테마별로 알아보는 해외여행</h2>
+        <p>8월 여름, MD가 새롭게 추천하는 해외여행 테마별로 알아보세요.</p>
+        <article class="theme-article">
+            <div class="tabs">
+                <button class="tab selected" data-tab="1">부모님과 함께라면</button>
+                <button class="tab" data-tab="2">자유여행 추천</button>
+            </div>
+            <button class="arrow left"><</button>
+                <div class="tab-content" data-content="1">
+                <div class="item">
+                    <img src="https://media.istockphoto.com/id/588618834/ko/%EC%82%AC%EC%A7%84/%EB%B0%A9%EC%BD%95-%ED%98%84%EB%8C%80-%EC%98%A4%ED%94%BC%EC%8A%A4-%EB%B9%8C%EB%94%A9-%EC%BD%98%EB%8F%84%EC%9D%98-%EA%B3%B5%EC%A4%91-%EB%B3%B4%EA%B8%B0.jpg?s=2048x2048&w=is&k=20&c=-hZkuRoPZzjgha7Q5ryI0sIfWAFkU1EKh6dBAKKpxqI=" alt="방콕">
+                    <h3>방콕/파타야 5일 #현지인가이드 #효도여행 #초특급호텔 #원더풀펄디너크루즈 #마하나콘전망대 #한방스파 #전일정특식</h3>
+                    <p>핵심일정은 물론 디너크루즈, 마하나콘 스카이 전망대, 마사지, 특식까지 다! 엄선한 초특급 5성급 체인 호텔 투숙으로 편안하고 만족스러운 방콕/파타야를 느끼실 수 있습니다.  #우리끼리 단독여행</p>
+                    <h2>1,479,000원~</h2>
+                </div>
+                <div class="item">
+                    <img src="https://media.istockphoto.com/id/2164234896/ko/%EC%82%AC%EC%A7%84/%EB%B0%A9%EB%B9%84%EC%97%A5-%EB%9D%BC%EC%98%A4%EC%8A%A4-%EC%95%84%EB%A6%84%EB%8B%A4%EC%9A%B4-%EB%B0%A9%EB%B9%84%EC%97%A5-%EB%9D%BC%EC%98%A4%EC%8A%A4%EC%97%90%EC%84%9C-%EC%97%B4%EA%B8%B0%EA%B5%AC%EC%99%80-%ED%95%A8%EA%BB%98-%EC%9D%BC%EB%AA%B0%EC%97%90-%EB%82%A8%EC%86%A1-%EA%B0%95.jpg?s=2048x2048&w=is&k=20&c=B9L-kQ4gNZCvfkBn9V_DHdhbR3yqnGAf0Vp3ygsJXZU=" alt="라오스 1">
+                    <h3>[스마트 초이스] 라오스 비엔티안/방비엥 5일 #열기구 #블루라군 #버기카 #전일정 4성급호텔 #특식1회</h3>
+                    <p>라오스 비엔티안/방비엥 히트상품으로 다이나믹한 방비엥에서는 다양한 액티비티를, 비엔티안에서는 라오스의 문화체험을 즐길 수 있는 핵심일정 상품입니다.</p>
+                    <h2>500,700원~</h2>
+                </div>
+                <div class="item">
+                    <img src="https://media.istockphoto.com/id/528743623/ko/%EC%82%AC%EC%A7%84/%EB%85%B8%EC%9D%B8-%EB%82%A8%EC%9E%90-%ED%8C%A8%EB%93%A4%EB%A7%81-%EC%B9%B4%EC%95%BD.jpg?s=2048x2048&w=is&k=20&c=MgyrCpv0rQ9ePnVAGWu7t3azLmAz0QJSnofy-jiQ-J0=" alt="라오스 2">
+                    <h3>라오스 비엔티안/방비엥 5일 #오전출발 #왕복기내식 #블루라군 #버기카 #풍등날리기 #전일정 4성급호텔 #특식1회</h3>
+                    <p>라오스 비엔티안/방비엥 히트상품으로 다이나믹한 방비엥에서는 다양한 액티비티를, 비엔티안에서는 라오스의 문화체험을 즐길 수 있는 핵심일정 상품입니다.</p>
+                    <h2>749,900원~</h2>
+                </div>
+                </div>
+            <button class="arrow right">></button>
+            <div class="tab-content" data-content="2" style="display: none;">
+                <div class="item">
+                    <img src="https://plus.unsplash.com/premium_photo-1661951368268-ff4679e60863?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="타이베이">
+                    <h3>타이베이 자유여행 4일#밤출발 #3성호텔 #시먼딩위치 #공항픽업</h3>
+                    <p>알뜰한 자유여행族에게 딱! 가성비 좋은 타이베이 3성급 호텔을 이용하는 상품입니다.</p>
+                    <h2>566,900원~</h2>
+                </div>
+                <div class="item">
+                    <img src="https://plus.unsplash.com/premium_photo-1661963188068-1bac46e28727?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="방콕">
+                    <h3>방콕 자유여행 5일 #트래블롯지 수쿰빗11 #시내중심 #체크인 후 24시간 투숙 #가성비 BEST</h3>
+                    <p>트레블로지 방콕 11 호텔은 방콕의 중심지에 위치한 합리적인 가격의 현대적인 호텔입니다. 깔끔한 객실과 편리한 시설을 제공하며, 주요 관광지와 쇼핑센터에 가까워 관광객들에게 이상적인 숙박 장소로 알려져 있습니다. 또한 특전으로 레이트 체크아웃 제공드립니다.</p>
+                    <h2>609,000원~</h2>
+                </div>
+                <div class="item">
+                    <img src="https://images.unsplash.com/photo-1541267226650-673e4bc869c7?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="싱가포르">
+                    <h3>싱가포르 자유여행 5일#오아시아 다운타운 #4성호텔 #가성비 #데이터유심</h3>
+                    <p>시내 위치한 4성호텔 숙박이 포함된 자유여행 상품 전일정 자유로 나만의 싱가포르를 만날 수 있는 에어텔 상품입니다. </p>
+                    <h2>1,104,400원~</h2>
+                </div>
+            </div>
+        </article>
+        </section>
+        <section class="special-section">
+            <div class="special-title">
+                <h2>오직 다나와에서만, 새로워진 최저가 여행상품</h2>
+                <p class="special-text">2024년 새로워진 여행, 다나와에서만 진행하는 최저가 여행상품 모음입니다.
+                    <br>
+                    일본, 중국, 동남아, 유럽, 떠나려는 지역, 패키지 등 내가 원하는 테마에 맞춰 여행을 선택해보세요.</p>
+            </div>
+            <article class="special-grid">
+                <div class="special-item">
+                    <h3>[출발확정] 벳푸/규슈/후쿠오카 4일 #청주출발 #인기일정 #품격히젠야 #후쿠오카 시내 #삿포로 맥주시음 포함 #캐널시티자유시간 #핵심관광</h3>
+                    <p>청주출발로 즐기는 규슈/후쿠오카 가성비 여행입니다. 맛있는 음식부터 쇼핑, 즐길거리 가득한 후쿠오카/규슈를 만나보세요!</p>
+                    <h2>1,109,900원~</h2>
+                </div>
+                <div class="special-item">
+                    <h3 class="single-line">[출발확정] 규슈 4일#동화속마을,아소팜 #로얄동업그레이드 #3색온천3박 #특급열차탑승 #유후인 #라라포트 #전일정3인실가능 #후쿠오카공항왕복이용</h3>
+                    <h2>1,209,900원~</h2>
+                </div>
+                <div class="special-item">
+                    <h3 class="single-line">후쿠오카/유후인/히코산 4일#맛있는여행 #대표온천호텔 #플로랄 빌리지 #스로프카 탑승 #노미호다이 포함</h3>
+                    <h2>629,000원~</h2>
+                </div>
+                <div class="special-item">
+                    <h3 class="single-line">[출발확정]후쿠오카/벳부/히타 3일#4인이상 출발확정 #인기호텔 #온천여행 #유후인산책 #벳푸탐험 #라라포트후쿠오카 #특전제공</h3>
+                    <h2>749,900원~</h2>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-nav-background">
+            <nav class="footer-nav">
+                <a href="/about">다나와 소개</a>
+                <a href="/terms">이용약관</a>
+                <a href="/privacy" class="footer-bold-text">개인정보처리방침</a>
+                <a href="/youth">청소년 보호정책</a>
+                <a href="/sitemap">사이트맵</a>
+                <a href="/advertise">광고센터</a>
+                <a href="/partnership">협력사문의</a>
+            </nav>
+        </div>
+        <div class="footer-info">
+            <div>
+                <div class="footer-about">
+                    <span class="footer-address">주소 (우) 08510 서울특별시 금천구 벚꽃로 298, 17층(가산동, 대륭포스트타워6차)</span>
+                    <span class="footer-txt">대표: 이건수</span>
+                </div>
+                <div class="footer-about">
+                    <span class="footer-txt">사업자번호: 117-81-40065</span>
+                    <span class="footer-txt">통신판매업: 제2004-서울양천-00918호</span>
+                    <span class="footer-txt">부가통신사업: 제003081호</span>
+                    <button class="footer-button">사업자정보확인</button>
+                </div>
+            </div>
+            <div class="footer-law">
+                <span class="footer-title">콘텐츠산업진흥법</span>
+                <span class="footer-summary">콘텐츠산업 진흥법에 의한 콘텐츠 보호</span>
+                <button class="footer-button">자세히보기</button>
+                <button class="footer-button">콘텐츠이용안내</button>
+            </div>
+            <div class="footer-point">
+                (주)커넥트웨이브는 상품판매와 직접적인 관련이 없으며, 모든 상거래의 책임은 구매자와 판매자에게 있습니다.
+                <br>
+                이에 대해 (주)커넥트웨이브는 일체의 책임을 지지 않습니다.
+                <br>
+                본사에 등록된 모든 광고와 저작권 및 법적책임은 자료제공사 (또는 글쓴이)에게 있으므로 본사는 광고에 대한 책임을 지지 않습니다.
+            </div>
+            <p>Copyright &copy; connectwave Co., Ltd. All Rights Reserved.</p>
+            <img src="https://kolsa.or.kr/wp-content/uploads/2022/12/kolsa_logo.png" alt="한국온라인쇼핑협회" width="72px" height="30px">
+        </div>
+    </footer>
+    <script src="tour.js"></script>
+</body>
+</html>
